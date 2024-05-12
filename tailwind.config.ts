@@ -40,7 +40,7 @@ const config = {
         },
       },
       backgroundImage: {
-        hero: "url('/images/hero-background.png)",
+        hero: "url('/images/hero-background.png')",
       },
       keyframes: {
         "accordion-down": {
