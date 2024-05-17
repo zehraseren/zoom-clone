@@ -91,7 +91,7 @@ const MeetingTypeList = () => {
         img="/icons/schedule.svg"
         title="Schedule Meeting"
         description="Plan your meeting"
-        handleClick={() => setMeetingState("isScheduleMeeting")}
+        handleClick={() => router.push("/recordings")}
       />
       <HomeCard
         className="bg-yellow-1"
